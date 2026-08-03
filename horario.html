@@ -1,49 +1,96 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <table>
-  <tr>
-    <th>Hora</th>
-    <th>Lunes</th>
-    <th>Martes</th>
-    <th>Miercoles</th>
-    <th>Jueves</th>
-    <th>Viernes</th>
-    <th>Sabado</th>
-    <th>Domingo</th>
-  </tr>
-  <tr>
-    <th>6:00 A.M-12 A.M</th>
-    <th>Estudiar</th>
-    <th>Estudiar</th>
-    <th>Estudiar</th>
-    <th>Estudiar</th>
-    <th>Estudiar</th>
-    <th>Doblar ropa</th>
-    <th>Descansar</th>
-  </tr>
-  <tr>
-    <th>12 A.M-6 P.M</th>
-    <th>Especialidad</th>
-    <th>Tareas</th>
-    <th>Especialidad</th>
-    <th>Descansar o tareas</th>
-    <th>Tareas</th>
-    <th>doblar ropa</th>
-    <th>Descansar o tareas</th>
+    <title>Horario Semanal</title>
 
-  </tr>
-  
-  </tr>
-</table>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        h1{
+            color: #003366;
+        }
+
+        table{
+            width: 90%;
+            margin: auto;
+            border-collapse: collapse;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            background-color: white;
+        }
+
+        th, td{
+            border: 2px solid #000;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th{
+            background-color: #0059b3;
+            color: white;
+        }
+
+        /* Efecto cebra */
+        tr:nth-child(even){
+            background-color: #cfe8ff;
+        }
+
+        tr:nth-child(odd){
+            background-color: white;
+        }
+
+        tr:hover{
+            background-color: #99ccff;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Mi Horario Semanal</h1>
+
+    <table>
+        <tr>
+            <th>Hora</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+            <th>Sábado</th>
+            <th>Domingo</th>
+        </tr>
+
+        <tr>
+            <td><strong>6:00 A.M. - 12:00 M.</strong></td>
+            <td>Estudiar</td>
+            <td>Estudiar</td>
+            <td>Estudiar</td>
+            <td>Estudiar</td>
+            <td>Estudiar</td>
+            <td>Doblar ropa</td>
+            <td>Descansar</td>
+        </tr>
+
+        <tr>
+            <td><strong>12:00 M. - 6:00 P.M.</strong></td>
+            <td>Especialidad</td>
+            <td>Tareas</td>
+            <td>Especialidad</td>
+            <td>Descansar o tareas</td>
+            <td>Tareas</td>
+            <td>Doblar ropa</td>
+            <td>Descansar o tareas</td>
+        </tr>
+
+    </table>
+<a href="index.html">Volver al inicio</a>
 </body>
 </html>
-
-
 
 
